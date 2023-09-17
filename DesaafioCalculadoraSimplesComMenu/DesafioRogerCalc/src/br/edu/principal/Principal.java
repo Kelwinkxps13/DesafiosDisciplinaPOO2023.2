@@ -47,7 +47,7 @@ public class Principal {
 			}
 			MenuDiv: if(x==4){
 				int a = 0;
-				System.out.println("Bem vindo ao menu soma");
+				System.out.println("Bem vindo a Divisão");
 				do {
 					a = Calc.MenuDiv();				
 					if(a==2) {
