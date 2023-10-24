@@ -4,12 +4,18 @@
  */
 package br.edu.principal;
 
+import br.edu.figurasplanas.*;
+
 /**
  *
  * @author aj_un
  */
 public class Principal {
     public static void main(String[] args) {
-        
+        Triangulo t = new Triangulo();
+        t.setBase(10);
+        t.setAltura(2);
+        t.calculaArea();
+        t.getArea();
     }
 }

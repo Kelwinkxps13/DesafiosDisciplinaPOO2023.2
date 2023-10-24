@@ -9,18 +9,12 @@ package br.edu.figurasplanas;
  *
  * @author Alunos
  */
-public class Quadrado {
+public class Quadrado extends FigurasPlanas{
     private double base;
-    private double area;
 
     public void setBase(double base) {
         this.base = base;
     }
-
-    public double getArea() {
-        return area;
-    }
-    
     
     public void calculaArea(){
         area = (base*base);

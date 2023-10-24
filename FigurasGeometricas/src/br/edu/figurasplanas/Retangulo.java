@@ -9,10 +9,9 @@ package br.edu.figurasplanas;
  *
  * @author Alunos
  */
-public class Retangulo {
+public class Retangulo extends FigurasPlanas{
     private double base;
     private double altura;
-    private double area;
 
     public void setBase(double base) {
         this.base = base;
@@ -20,10 +19,6 @@ public class Retangulo {
 
     public void setAltura(double altura) {
         this.altura = altura;
-    }
-
-    public double getArea() {
-        return area;
     }
     
     public void calculaArea(){

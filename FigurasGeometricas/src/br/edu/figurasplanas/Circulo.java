@@ -9,18 +9,11 @@ package br.edu.figurasplanas;
  *
  * @author Alunos
  */
-public class Circulo {
+public class Circulo extends FigurasPlanas{
     private double raio;
-    private double area;
-
     public void setRaio(double raio) {
         this.raio = raio;
     }
-
-    public double getArea() {
-        return area;
-    }
-    
     public void calcularArea(){
         area = (raio*raio*Math.PI);
     }

@@ -9,11 +9,10 @@ package br.edu.figurasplanas;
  *
  * @author Alunos
  */
-public class Trapezio {
+public class Trapezio extends FigurasPlanas{
     private double baseMaior;
     private double baseMenor;
     private double altura;
-    private double area;
 
     public void setBaseMaior(double baseMaior) {
         this.baseMaior = baseMaior;
@@ -26,12 +25,7 @@ public class Trapezio {
     public void setAltura(double altura) {
         this.altura = altura;
     }
-
-    public double getArea() {
-        return area;
-    }
-    
-    
+      
     public void calculaArea(){
         area = ((baseMaior+baseMenor)*altura)/2;
     }
